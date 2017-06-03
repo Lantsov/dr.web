@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 13px;
+  font-family: "Arial";
+  background-image: url('../img/background.png');
+}
+.view{
+	width: 954px;
+	margin-left: -477px;
+	left: 50%;
+	position: absolute;
+}
+header{
+	height: 186px;
+	background-image: url('../img/background_top.png');
+	margin-bottom: 12px;
+}
+.header-top{
+	height: 59px;
+	line-height: 59px;
+	margin-bottom: 6px;
+	display: block;
+}
+.header-top div{
+	display: inline-block;
+	vertical-align: top;
+}
+.header-top-logo{
+	width: 234px;
+	height: 59px;
+	background-color: #68b905;
+	margin-right: 6px;
+	float: left;
+}
+.header-top-logo a{
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	display: block;
+}
+.logo{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/logo_new.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.header-top-users{
+	background-color: #335f44;
+	width: 234px;
+	height: 59px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+.h-users{
+	line-height: 42px;
+}
+nav{
+	width: 960px;
+	margin: 0 -3px 0 -3px;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 3px;
+	text-align: center;
+	width: 114px;
+	line-height: 29px;
+	background-color: #68b905;
+	float: left;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+}
+nav ul li:hover,
+nav ul li.active{
+	background-color: transparent;
+}
+.times{
+	margin: 0 29px;
+}
+.times h1{
+	font-size: 16px;
+	font-weight: bold;
+}
+.times-sign a{
+	color: #67a10d;
+}
+.times-next-soon{
+	height: 74px;
+	line-height: 74px;
+	position: relative;
+	background-color: #fff;
+}
+.times-next-soon div{
+	display: inline-block;
+	float: left;
+}
+.soon_soon{
+	position: absolute;
+	left: -17px;
+	top: 17px;
+	transform: rotate(-90deg);
+	width: 74px;
+	border-bottom: 3px solid #fff;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 37px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.soon_cat{
+	width: 193px;
+	text-align: right;
+	color: #fff;
+	font-weight: bold;
+	padding-right: 14px;
+}
+.cat_1{
+	background-color: #d84076;
+}
+.soon_text{
+	line-height: 1;
+}
+
+
+
+
+
+
+
+
