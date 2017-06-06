@@ -127,13 +127,94 @@ nav ul li.active{
 	color: #fff;
 	font-weight: bold;
 	padding-right: 14px;
+	vertical-align: middle;
 }
 .cat_1{
 	background-color: #d84076;
 }
+
 .soon_text{
-	line-height: 1;
+	line-height: 1.1;
+	padding: 20px;
+	font-size: 13px;
 }
+.soon_text strong{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.8;
+}
+.times-public{
+	width: 100%;
+	overflow: hidden;
+}
+.times-public-drive{
+	margin: 0 -20px;
+	max-height: 150px;
+	overflow: hidden;
+
+}
+.drive{
+	width: 193px;
+	height: 150px;
+	background-color: #fff;
+	display: inline-block;
+	float: left;
+	margin: 0 20px;
+}
+.drive-head{
+	background-color: #fb982d;
+	height: 42px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 42px;
+	color: #fff;
+}
+.drive-body{
+	text-align: center;
+	display: table;
+	vertical-align: middle;
+	height: 107px;
+}
+.drive-body_middle{
+	display: table-cell;
+	vertical-align: middle;
+}
+.drive-body em{
+	display: block;
+}
+.drive-body a{
+	display: block;
+}
+.comments{
+	background-color: #fff;
+	padding: 20px;
+}
+.comments-item > span{
+	display: inline-block;
+	float: left;
+	background-color: #5a7cac;
+	padding: 5px 7px;
+	color: #fff;
+}
+.comments-item_body{
+	display: inline-block;
+	margin-left: 19px;
+	padding-left: 10px;
+	vertical-align: top;
+}
+.comments-item_body h2{
+	margin: 0;
+	padding: 0;
+}
+.comments-item_body a{
+	color: #000;
+}
+.a-user_green{
+	color: #739a80;
+}
+
+
+
 
 
 
